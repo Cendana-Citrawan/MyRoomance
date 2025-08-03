@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;500;600;700&family=Squada+One&display=swap');
+
+:root {
+    --vibrant-pink: #FF71CD;
+    /* Vibrant Pink */
+    --vibrant-blue: #5755FE;
+    /* Vibrant Blue */
+    --light-blue: #8B93FF;
+    /* Light Blue */
+    --light-pink: #FFF7FC;
+    /* Very Light Pink */
+    --font-family: 'Harmattan', sans-serif;
+    /* Default font */
+    --font-family-heading: 'Squada One', sans-serif;
+    /* Heading Font */
+}
+
+.stAppHeader {
+    background: unset;
+}
+
+.stToolbarActions,
+.stAppDeployButton,
+.stMainMenu,
+span[data-testid="stHeaderActionElements"] {
+    display: none;
+}
+
+[data-testid="stToastContainer"] {
+    top: 0;
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"] {
+    justify-content: unset;
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"]>div {
+    width: 100%;
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"]>svg {
+    width: 1.5rem;
+    scale: 1.5;
+    fill: var(--vibrant-blue)
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"]>div>div {
+    gap: 1.5rem;
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"]>div {
+    width: 100%;
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"]>div>div>div {
+    gap: unset;
+    flex-grow: 1;
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"]>div>div>div>div {
+    width: 100%;
+}
+
+[data-testid="stToastContainer"]>[data-testid="stToast"]>div>div>div>div>p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #5755fe;
+    width: 250px !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stElementToolbar"] {
+    display: none !important;
+}
+
+[data-testid="stSidebar"]>div:last-child>div {
+    display: none;
+}
+
+[data-testid="stSidebar"] * {
+    color: white;
+}
+
+[data-testid="stSidebar"] button {
+    background-color: #6a68ff;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+[data-testid="stSidebar"] button p {
+    font-weight: bold;
+}
+
+[data-testid="stSidebar"] .stButton>button {
+    border: 1px solid white;
+}
+
+[data-testid="stSidebar"] button:hover {
+    background-color: var(--light-blue);
+}
+
+[data-testid="stSidebar"] .stImage img {
+    scale: 0.7;
+}
+
+[data-testid="stSidebar"] [data-testid="stImageContainer"] {
+    margin: -2rem 0px;
+}
+
+[data-testid="stSidebarHeader"] {
+    margin: 0px;
+}
+
+
+[data-testid="stSidebarUserContent"] {
+    margin: 0px;
+}
+
+.stTabs button {
+    color: black;
+}
+
+.stTabs [data-baseweb="tab-highlight"] {
+    background-color: var(--light-blue);
+}
+
+.stTabs button p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.stTabs button:hover {
+    color: var(--vibrant-blue);
+}
+
+.stTabs button:focus {
+    color: var(--vibrant-blue);
+}

@@ -1,0 +1,7 @@
+{
+    "app": {
+        "appName": "MyRoomance",
+        "stylesPath": "assets/styles.css",
+        "iconPath": "assets/Icon.ico"
+    }
+}
